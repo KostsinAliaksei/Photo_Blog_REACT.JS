@@ -9,7 +9,7 @@ class Footer_contacts_updates extends Component {
                 <div className="footer_contacts_updates_images">
                     <div className="footer_contacts_updates_images_top">
                         <div className="footer_contacts_updates_images_top_1">
-                            <img src="img/footer/up1.png" width={'78%'} height={'78%'} alt="up1"/>
+                            <img src="img/footer/up1.png" width={'100%'} height={'100%'} alt="up1"/>
                         </div>
                         <div className="footer_contacts_updates_images_top_2">
                             <img src="img/footer/up2.png" alt="up2"/>

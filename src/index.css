@@ -673,6 +673,7 @@ form > textarea {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 315px;
 }
 
 .footer_contacts_updates_images_bottom,
@@ -695,6 +696,11 @@ form > textarea {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin-left: 10px;
+}
+
+.footer_contacts_updates_images_top_2 > img:first-child {
+  margin-bottom: 8px;
 }
 
 .footer_foot {
