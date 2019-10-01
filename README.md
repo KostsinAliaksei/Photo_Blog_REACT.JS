@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+=====================================================================================================
+
+TO CHANGE MAIN COLOR THEME OF THE MARKUP, YOU SHOULD REPLACE COLOR INDEXES IN 'INDEX.JS' FILE
+
+=====================================================================================================
