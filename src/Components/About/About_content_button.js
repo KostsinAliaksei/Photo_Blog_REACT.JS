@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {MyContext} from "../../index";
 
-class About_content_button extends Component {
+class About_content_button extends PureComponent {
     render() {
         return (
             <MyContext.Consumer>

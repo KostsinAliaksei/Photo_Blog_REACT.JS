@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class About_content_info extends Component {
+class About_content_info extends PureComponent {
     render() {
         return (
             <div className="about_content_info border">

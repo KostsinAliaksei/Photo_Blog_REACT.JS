@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Header_head_menu extends Component {
+class Header_head_menu extends PureComponent {
     render() {
         return (
             <ul className={'header_head_menu_list'}>

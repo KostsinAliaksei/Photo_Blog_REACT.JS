@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 
-class Portfolio_text extends Component {
+class Portfolio_text extends PureComponent {
     render() {
         return (
             <div className="portfolio_text border">

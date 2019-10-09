@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Footer_form extends Component {
+class Footer_form extends PureComponent {
     render() {
         return (
             <div className="footer_form border">

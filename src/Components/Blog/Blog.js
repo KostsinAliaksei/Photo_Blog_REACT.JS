@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import Blog_card from "./Blog_card";
 
 const cardsTitle = 'Design is the method of putting form and content together.';
@@ -9,7 +9,7 @@ lios mukatu accusantium doloremq doisa
 nojilaudan tium, totam rem aperiam, uni 
 eaque ipsa quae ab cok illo inven tore siva.`;
 
-class Blog extends Component {
+class Blog extends PureComponent {
     render() {
         return (
             <div className="blog border">

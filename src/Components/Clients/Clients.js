@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {MyContext} from "../../index";
 
 
-class Clients extends Component {
+class Clients extends PureComponent {
     render() {
         return (
             <div className="clients_back">

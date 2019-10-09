@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import Footer_form from "./Footer_form";
 import Footer_contacts from "./Footer_contacts";
 import Footer_foot from "./Footer_foot";
 import {MyContext} from "../../index";
 
-class Footer extends Component {
+class Footer extends PureComponent {
     render() {
         return (
             <MyContext.Consumer>

@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 
-class Blog_card extends Component {
+class Blog_card extends PureComponent {
     render() {
         return (
             <div className="blog_card border">

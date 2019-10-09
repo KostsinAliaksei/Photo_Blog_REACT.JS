@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Header_bottom extends Component {
+class Header_bottom extends PureComponent {
     render() {
         return (
             <div className="header_bottom border">

@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Footer_foot extends Component {
+class Footer_foot extends PureComponent {
     render() {
         return (
             <div className="footer_foot" style={this.props.value}>

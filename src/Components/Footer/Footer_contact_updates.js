@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Footer_contacts_updates extends Component {
+class Footer_contacts_updates extends PureComponent {
     render() {
         return (
             <div className="footer_contacts_updates border">
