@@ -1,0 +1,135 @@
+/*=================HEADER====================================================*/
+
+.header {
+    width: 100%;
+    height: 900px;
+    background: url("../Components/Header/img/BG.PNG") round;
+    position: relative;
+}
+
+.header_back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_head {
+    width: 80%;
+    height: 6%;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_head_logo {
+    width: 12%;
+    height: 100%;
+    background: url("../Components/Header/img/Logo.png") round;
+}
+
+.header_content {
+    width: 80%;
+    height: 45%;
+    margin: 180px auto 0;
+}
+
+.header_bottom {
+    width: 80%;
+    height: 5%;
+    margin: 150px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+.header_bottom > i:hover {
+    color: yellow;
+}
+
+.header_head_menu {
+    width: 38%;
+}
+
+.header_head_menu_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_head_menu_list_item > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px transparent solid;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+.header_head_menu_list_item > a:hover {
+    border-bottom: 2px yellow solid;
+}
+
+.header_content_title,
+.header_content_text,
+.header_content_button {
+    width: 40%;
+}
+
+.header_content_title {
+    height: 50%;
+    text-align: left;
+}
+
+.header_content_title > span {
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    align-items: center;
+}
+
+.header_content_text {
+    margin-top: 40px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.header_content_text > span {
+    color: white;
+    font-size: 18px;
+}
+
+.header_content_button {
+    margin-top: 40px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.header_content_button > button {
+    width: 30%;
+    height: 60%;
+    background: yellow;
+    color: black;
+    border: 0;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.header_bottom > i {
+    color: white;
+    margin-left: 44px;
+    font-size: 34px;
+}

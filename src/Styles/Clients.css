@@ -1,0 +1,41 @@
+/*=================CLIENTS=======================================================*/
+
+.clients_back {
+
+    width: 100%;
+    height: 300px;
+    background: url("../Components/Clients/img/bg.PNG") round;
+}
+
+.clients {
+    width: inherit;
+    height: inherit;
+}
+
+.clients_title {
+    margin-top: 30px;
+}
+
+.clients_title > span {
+    color: white;
+    font-size: 52px;
+}
+
+.clients_icons {
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients_icons_icon > img {
+    height: 60px;
+}
+
+.clients_icons_icon {
+    margin-right: 50px;
+}

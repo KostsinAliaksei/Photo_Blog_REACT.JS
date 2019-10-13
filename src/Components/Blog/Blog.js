@@ -1,5 +1,6 @@
 import React, {PureComponent} from 'react'
 import Blog_card from "./Blog_card";
+import '../../Styles/Blog.css';
 
 const cardsTitle = 'Design is the method of putting form and content together.';
 const cardsDate = 'Life style - July 3, 2017';

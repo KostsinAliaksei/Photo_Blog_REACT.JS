@@ -1,5 +1,6 @@
 import React, {PureComponent} from 'react';
 import {MyContext} from "../../Contexts/MyContext";
+import '../../Styles/Clients.css';
 
 
 class Clients extends PureComponent {

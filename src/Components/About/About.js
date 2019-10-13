@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import About_img from "./About_img";
 import About_content from "./About_content";
+import '../../Styles/About.css';
 
 class About extends PureComponent {
     render() {

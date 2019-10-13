@@ -3,6 +3,7 @@ import Footer_form from "./Footer_form";
 import Footer_contacts from "./Footer_contacts";
 import Footer_foot from "./Footer_foot";
 import {MyContext} from "../../Contexts/MyContext";
+import '../../Styles/Footer.css';
 
 class Footer extends PureComponent {
 

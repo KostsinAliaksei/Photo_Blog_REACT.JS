@@ -3,6 +3,7 @@ import Header_head from "./Header_head";
 import Header_content from "./Header_content";
 import Header_bottom from "./Header_bottom";
 import {MyContext} from "../../Contexts/MyContext";
+import '../../Styles/Header.css';
 
 
 class Header extends Component {
