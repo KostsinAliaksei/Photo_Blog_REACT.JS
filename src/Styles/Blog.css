@@ -36,6 +36,10 @@
     height: 570px;
     margin-top: 65px;
     background: white;
+}
+
+.blog_card:hover {
+    transition: 0.3s;
     box-shadow: 0px 5px 24px -5px rgba(50, 50, 50, 0.89);
 }
 
