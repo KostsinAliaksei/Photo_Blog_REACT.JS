@@ -18,7 +18,7 @@ class Blog_card extends PureComponent {
                         <span>{this.props.text}</span>
                     </div>
                     <div className="blog_card_content_button">
-                        <button>Read More</button>
+                        <button className='btn'>Read More</button>
                     </div>
                 </div>
             </div>

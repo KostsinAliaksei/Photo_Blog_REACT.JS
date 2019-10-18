@@ -8,7 +8,7 @@ class About_content_button extends PureComponent {
     render() {
         return (
             <div className="about_content_button border">
-                <button style={this.context}>View My Flickr Profile</button>
+                <button className='btn' style={this.context}>View My Flickr Profile</button>
             </div>
         )
     }

@@ -4,10 +4,10 @@ class Header_bottom extends PureComponent {
     render() {
         return (
             <div className="header_bottom border">
-                <i className="fa fa-facebook" aria-hidden="true"></i>
-                <i className="fa fa-twitter" aria-hidden="true"></i>
-                <i className="fa fa-instagram" aria-hidden="true"></i>
-                <i className="fa fa-simplybuilt" aria-hidden="true"></i>
+                <i className="fa fa-facebook btn" aria-hidden="true"></i>
+                <i className="fa fa-twitter btn" aria-hidden="true"></i>
+                <i className="fa fa-instagram btn" aria-hidden="true"></i>
+                <i className="fa fa-simplybuilt btn" aria-hidden="true"></i>
             </div>
         )
     }

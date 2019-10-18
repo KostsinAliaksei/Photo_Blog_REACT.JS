@@ -32,7 +32,7 @@ class Portfolio_cards extends PureComponent {
                     </div>
                 </div>
                 <div className="portfolio_cards_button">
-                    <button>SEE MORE</button>
+                    <button className='btn'>SEE MORE</button>
                 </div>
             </div>
         )

@@ -10,7 +10,7 @@ class Footer_form extends PureComponent {
                         <input type="text" placeholder={'*Your Name'}/>
                         <input type="text" placeholder={'*Your Email'}/>
                         <textarea cols="30" rows="10" placeholder={'*Your Message'}></textarea>
-                        <input type="submit" className={'submit'} value={'Send Message'}/>
+                        <input type="submit" className={'submit btn'} value={'Send Message'}/>
                     </form>
                 </div>
             </div>

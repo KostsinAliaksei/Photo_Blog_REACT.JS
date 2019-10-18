@@ -11,7 +11,7 @@ class Header_content extends PureComponent {
                     <span>I’m an Art Director & Photographer based in the San Francisco.</span>
                 </div>
                 <div className="header_content_button border">
-                    <button>See My Works</button>
+                    <button className='btn'>See My Works</button>
                 </div>
             </div>
         )
